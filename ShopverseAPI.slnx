@@ -1,4 +1,9 @@
 <Solution>
   <Folder Name="/src/" />
-  <Folder Name="/src/IdentityService/" />
+  <Folder Name="/src/IdentityService/">
+    <Project Path="IdentityService.API/IdentityService.API.csproj" />
+    <Project Path="IdentityService.Application/IdentityService.Application.csproj" />
+    <Project Path="IdentityService.Domain/IdentityService.Domain.csproj" />
+    <Project Path="IdentityService.Infrastructure/IdentityService.Infrastructure.csproj" />
+  </Folder>
 </Solution>
